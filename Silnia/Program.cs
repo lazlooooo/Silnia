@@ -26,7 +26,7 @@ namespace Silnia
             {
                 Console.Write("Podaj podstawe silni");
                 double liczba = double.Parse(Console.ReadLine());
-                /* if (liczba < 10)
+               if (liczba < 10)
                  {
                      silnia = Silnia(liczba);
                      double jednosci = silnia % 10;
@@ -36,7 +36,7 @@ namespace Silnia
                  else
                  {
                      Console.Write(0);
-                     Console.WriteLine(" {0}",0);*/
+                     Console.WriteLine(" {0}",0);
                 Console.WriteLine(Silnia(liczba));
 
                 }
